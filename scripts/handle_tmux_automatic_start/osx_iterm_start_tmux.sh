@@ -67,7 +67,7 @@ start_iterm29_and_run_tmux() {
 
 		# start tmux
 		tell _session
-			 write text "tmux_start"
+			 write text "tmux"
 		end tell
     end tell
 	EOF
