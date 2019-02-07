@@ -159,15 +159,11 @@ main() {
 	  start_iterm29_and_run_tmux
 	  if [ "$TRUE_FULL_SCREEN" == "fullscreen" ]; then
 	  	  resize_iterm29_to_true_full_screen
-	  else
-	   	  resize_iterm29_to_full_screen
 	  fi
     else
 	  start_iterm_and_run_tmux
 	  if [ "$TRUE_FULL_SCREEN" == "fullscreen" ]; then
 	  	  resize_to_true_full_screen
-	  else
-	   	  resize_window_to_full_screen
 	  fi
     fi
 }
